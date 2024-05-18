@@ -96,3 +96,157 @@
     font-weight: 500;
     color: rgb(83, 83, 83);
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    width: 800px;
+    padding-left: 330px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.branch-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 80px;
+}
+
+.branch-list .branch-box {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: -20px;
+    margin: 10px;
+    background-color: white;
+    width: 500px;
+}
+
+.branch-list .branch-box .left-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.branch-title{
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+.status {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 15px;
+    background-color: rgb(234, 234, 234);
+    width: 80px;
+    padding-left: 7px;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.rate-box {
+    display: flex;
+    margin-top: -5px;
+}
+
+.rating {
+    font-size: 15px;
+    font-weight: 550;
+    margin-right: 5px;
+}
+
+.reviews {
+    font-size: 15px;
+    color: #2c2c2c;
+    margin-right: 10px;
+    font-weight: 550;
+}
+
+.rating-and-rewiews{
+    margin-left: 5px;
+}
+
+.rates {
+    margin-top: 3px;
+    display: flex;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.branch-image {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.buttons{
+    margin-top: -35px;
+    display: flex;
+}
+
+.button{
+    margin-right: 5px;
+}
+
+.button-text{
+    background-color: rgb(234, 234, 234);
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 93px;
+    border-radius: 5px;
+    color: #4f4f4f;
+    font-weight: 550;
+}
+
+.fa-shipping-fast, .fa-clock{
+    margin-right: 3px;
+}
