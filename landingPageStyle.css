@@ -136,10 +136,8 @@
 
 .branch-list {
     display: flex;
-    justify-content: space-around;
     width: 100%;
-    max-width: 800px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .branch-list .branch-box {
@@ -241,7 +239,7 @@
     padding-left: 9px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 93px;
+    width: 95px;
     border-radius: 5px;
     color: #4f4f4f;
     font-weight: 550;
