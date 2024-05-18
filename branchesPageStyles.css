@@ -2,14 +2,35 @@
     font-family: "Poppins";
 }
 
+.space {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    padding-left: 80px;
+}
+
+.container .left-main-side {
+    flex: 20%;
+    margin-top: 25px;
+    height: 600px;
+    border: #dedede solid 1px;
+    border-radius: 5px;
+}
+
+.container .right-side {
+    flex: 65%;
+    padding: 20px;
+}
+
 .search-container {
     display: flex;
-    align-items: center;
     border-radius: 5px;
     padding: 5px;
     background-color: white;
-    width: 800px;
-    padding-left: 330px;
+    width: 900px;
+    margin-bottom: -34px;
 }
 
 .search-input {
@@ -19,7 +40,6 @@
     border-radius: 5px;
     outline: none;
     font-size: 16px;
-    width: 200px;
 }
 
 .search-button {
@@ -42,39 +62,56 @@
 }
 
 .branch-list {
-    width: 100%;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 40px;
 }
 
-.branch-list .branch-box {
+.branch-box {
     display: flex;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding-left: 20px;
-    padding-top: -20px;
-    margin: 10px;
     background-color: white;
-    width: 500px;
+    width: 900px;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
 .branch-list .branch-box .left-side {
     display: flex;
+    flex: 75%;
     flex-direction: column;
-    flex: 1;
+    padding-left: 20px;
+}
+
+.branch-list .branch-box .right-side{
+    flex: 25%;
+    padding: 0px;
+    padding-left: 145px;
+}
+
+.right-side .branchImage {
+    height: 200px;
+    border-radius: 5px 0px 0px 0px;
+    padding: 0;
 }
 
 .title {
+    margin-top: -10px;
     display: flex;
-    margin-bottom: 0px;
+    margin-bottom: -35px;
 }
 
 .branch-title {
     font-size: 18px;
     font-weight: 600;
+    color: #ff0000;
+}
+
+.status-box {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .status {
@@ -101,7 +138,14 @@
 
 .rate-box {
     display: flex;
-    margin-top: -5px;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.rating-and-reviews {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .rating {
@@ -113,31 +157,21 @@
 .reviews {
     font-size: 15px;
     color: #2c2c2c;
-    margin-right: 10px;
     font-weight: 550;
 }
 
-.rating-and-reviews {
-    margin-left: 5px;
-}
-
 .rates {
-    margin-top: 3px;
     display: flex;
+    align-items: center;
 }
 
 .star {
     margin-right: 5px;
 }
 
-.branch-image {
-    width: 40%;
-    border-radius: 5px;
-}
-
 .buttons {
-    margin-top: -35px;
     display: flex;
+    margin-bottom: -5px;
 }
 
 .button {
@@ -146,10 +180,7 @@
 
 .button-text {
     background-color: rgb(234, 234, 234);
-    padding-left: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 95px;
+    padding: 5px 10px;
     border-radius: 5px;
     color: #4f4f4f;
     font-weight: 550;
