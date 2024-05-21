@@ -8,7 +8,7 @@
 
 .container {
     display: flex;
-    padding-left: 80px;
+    padding-left: 85px;
 }
 
 .container .left-main-side {
@@ -29,8 +29,9 @@
     border-radius: 5px;
     padding: 5px;
     background-color: white;
-    width: 900px;
+    width: 902px;
     margin-bottom: -34px;
+    padding-left: 0px;
 }
 
 .search-input {
